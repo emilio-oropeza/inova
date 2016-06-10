@@ -1,0 +1,53 @@
+.img-center{
+	margin: auto;
+}
+.title{
+	padding-bottom: 50px;
+}
+.title > div:nth-child(2){
+	height: 25px;
+}
+.title > div > span{
+	display: inline-block;
+	width: 100%;
+	height: 6px;
+	border-top: 1px solid #e6c9c1;
+}
+section{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#ranking, #detalle{
+	background-color: #3f4c52;
+	color: #ffffff;
+}
+#portada{
+	background-image: url("../images/portada/portada.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 900px;
+}
+#ranking{}
+	#ranking > .container > #marcas-container{
+		padding-top: 25px;
+	}
+	#ranking > .container > #marcas-container > .marcas{
+		position: relative;
+	}
+	#ranking > .container > #marcas-container > .marcas > span{
+		position: absolute;
+		display: block;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		background-color: #fdf9f7;
+		color: #000;
+		line-height: 50px;
+		text-align: center;
+		right: 0;
+		bottom: -10px;
+	}
+#figuras-container{
+	background-color: #fde0d8;
+}
