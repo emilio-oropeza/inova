@@ -103,7 +103,7 @@ section{
 	.tenis-equipos > .tenis-row > .modelo {
 	    font-weight: 700;
 	    font-size: 18px;
-	    padding-top: 1em;
+	    padding-top: 30px;
 	}
 	.tenis-equipos > .tenis-row > .marca {
 	    font-size: 18px;
@@ -169,6 +169,7 @@ section{
 @media screen and (min-width: 768px){
 	#portada{
 		background-size: cover;
+		background-attachment: fixed;
 	}
 	.title > div:nth-child(2){
 		font-size: 30px;
