@@ -1,17 +1,25 @@
 .img-center{
 	margin: auto;
 }
+
 .title{
 	padding-bottom: 50px;
 }
-.title > div:nth-child(2){
-	height: 25px;
+.title > div:nth-child(2) {
+    height: 25px;
+    font-size: 15px;
+    font-weight: 900;
 }
 .title > div > span{
-	display: inline-block;
+	display: block;
 	width: 100%;
-	height: 6px;
-	border-top: 1px solid #e6c9c1;
+	height: 1px;
+	border: 1px solid #e6c9c1;
+	margin-top: 10px;
+}
+article{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
 }
 section{
 	padding-top: 50px;
@@ -23,10 +31,10 @@ section{
 }
 #portada{
 	background-image: url("../images/portada/portada.jpg");
-	background-size: cover;
-	background-position: center;
+	background-size: 763px auto;
+	background-position: top center;
 	background-repeat: no-repeat;
-	height: 900px;
+	padding: 0px;
 }
 #ranking{}
 	#ranking > .container > #marcas-container{
@@ -34,6 +42,7 @@ section{
 	}
 	#ranking > .container > #marcas-container > .marcas{
 		position: relative;
+		margin-bottom: 20px;
 	}
 	#ranking > .container > #marcas-container > .marcas > span{
 		position: absolute;
@@ -47,7 +56,127 @@ section{
 		text-align: center;
 		right: 0;
 		bottom: -10px;
+		font-size: 25px;
+	}
+#detalle{}
+	.equipo-selector{
+		opacity: 0.5;
+		cursor: pointer;
+	}
+	.equipo-selector > span{
+		opacity: 0;
+		display: none;
+		text-align: center;
+		margin-left: -50%;
+		margin-right: -50%;
+		text-transform: uppercase;
+		padding-top: 5px;
+		font-size: 10px;
+	}
+	.equipo-selector:hover > span{
+		opacity: 1;
+	}
+	.equipo-selector.active{
+		opacity: 1;
+	}
+	.equipo-selector.active > span{
+		opacity: 1;
+	}
+	#table-header {
+	    padding-top: 50px;
+	}
+	#table-header > .row{
+		color: #9c9e9f;
+		margin-bottom: 15px;
+		display: none;
+	}
+	.tenis-equipos{
+		display: none;
+	}
+	.tenis-equipos > .tenis-row {
+	    background-color: #fff;
+	    padding: 25px 0px;
+	    color: #000;
+	    text-align: center;
+	    margin: 15px 0px;
+	}
+	.tenis-equipos > .tenis-row > .modelo {
+	    font-weight: 700;
+	    font-size: 18px;
+	    padding-top: 1em;
+	}
+	.tenis-equipos > .tenis-row > .marca {
+	    font-size: 18px;
+	    padding-top: 30px;
+	}
+	.tenis-equipos > .tenis-row > .goles {
+		font-weight: 700;
+	    font-size: 30px;
+	    padding-top: 20px;
+	}
+	.tenis-equipos > .tenis-row > .loquiero{
+		padding-top: 20px;	
+	}
+	.tenis-equipos > .tenis-row > .loquiero > a{
+	    color: #bec4c4;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 35px;
+	}
+	.tenis-equipos > .tenis-row > .loquiero > a > .loquiero-img {
+	    display: block;
+	    width: 32px;
+	    height: 32px;
+	    margin: auto;
+	    background-color: #bec4c4;
+	    color: #fff;
+	    line-height: 32px;
+	    border-radius: 50%;
+	    font-size: 15px;
+	}
+	.tenis-equipos > .tenis-row > .loquiero > a:hover,
+	.tenis-equipos > .tenis-row > .loquiero > a:focus{
+		color: #28bac1;
+		text-decoration: none;
+	}
+	.tenis-equipos > .tenis-row > .loquiero > a:hover > .loquiero-img,
+	.tenis-equipos > .tenis-row > .loquiero > a:focus > .loquiero-img {
+		background-color: #28bac1;
 	}
 #figuras-container{
 	background-color: #fde0d8;
+}
+	.figura-nombre {
+	    font-weight: 700;
+	    font-size: 14px;
+	}
+	.figura-pais {
+	    text-transform: uppercase;
+	    color: #d1aca2;
+	    font-size: 12px;
+	}
+	.figura-tenis-foto {
+	    max-height: 35px;
+	    margin: 15px auto;
+	}
+	.figura-tenis-modelo {
+	    height: 40px;
+	}
+	.figura-goles {
+	    font-weight: 700;
+	    font-size: 35px;
+	}
+@media screen and (min-width: 768px){
+	#portada{
+		background-size: cover;
+	}
+	.title > div:nth-child(2){
+		font-size: 30px;
+	}
+	.title > div > span{
+		margin-top: 20px;
+	}
+	.equipo-selector > span{
+		display: block;
+	}
 }

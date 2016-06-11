@@ -20,7 +20,7 @@ var jugadores = [
 	{
 		"nombre": "Gareth Bale",
 		"pais": "Gales",
-		"goles": 0,
+		"goles": 1,
 		"tenis": {
 			"marca": "adidas",
 			"modelo": 0

@@ -1,98 +1,11 @@
 var selecciones = [
 	{
 		"nombre": "Albania",
-		"tenis":[
-			{
-				"marca": "nike",
-				"modelo": 0,
-				"goles": 0
-			},
-			{
-				"marca": "nike",
-				"modelo": 1,
-				"goles": 0
-			},
-			{
-				"marca": "nike",
-				"modelo": 4,
-				"goles": 0
-			},
-			{
-				"marca": "nike",
-				"modelo": 5,
-				"goles": 0
-			},
-			{
-				"marca": "nike",
-				"modelo": 7,
-				"goles": 0
-			},
-			{
-				"marca": "adidas",
-				"modelo": 0,
-				"goles": 0
-			},
-			{
-				"marca": "adidas",
-				"modelo": 1,
-				"goles": 0
-			}
-		]
+		"tenis":[]
 	},
 	{
 		"nombre": "Alemania",
-		"tenis":[
-			{
-				"marca": "nike",
-				"modelo": 2,
-				"goles": 0
-			},
-			{
-				"marca": "nike",
-				"modelo": 1,
-				"goles": 0
-			},
-			{
-				"marca": "nike",
-				"modelo": 0,
-				"goles": 0
-			},
-			{
-				"marca": "nike",
-				"modelo": 5,
-				"goles": 0
-			},
-			{
-				"marca": "nike",
-				"modelo": 8,
-				"goles": 0
-			},
-			{
-				"marca": "adidas",
-				"modelo": 0,
-				"goles": 0
-			},
-			{
-				"marca": "adidas",
-				"modelo": 1,
-				"goles": 0
-			},
-			{
-				"marca": "adidas",
-				"modelo": 2,
-				"goles": 0
-			},
-			{
-				"marca": "adidas",
-				"modelo": 3,
-				"goles": 0
-			},
-			{
-				"marca": "adidas",
-				"modelo": 4,
-				"goles": 0
-			}
-		]
+		"tenis":[]
 	},
 	{
 		"nombre": "Austria",
@@ -119,44 +32,9 @@ var selecciones = [
 		"tenis":[
 			{
 				"marca": "nike",
-				"modelo": 0,
-				"goles": 0
-			},
-			{
-				"marca": "nike",
-				"modelo": 1,
-				"goles": 0
-			},
-			{
-				"marca": "nike",
-				"modelo": 4,
-				"goles": 0
-			},
-			{
-				"marca": "nike",
 				"modelo": 5,
 				"goles": 1
-			},
-			{
-				"marca": "adidas",
-				"modelo": 1,
-				"goles": 0
-			},
-			{
-				"marca": "adidas",
-				"modelo": 2,
-				"goles": 0
-			},
-			{
-				"marca": "adidas",
-				"modelo": 3,
-				"goles": 0
-			},
-			{
-				"marca": "puma",
-				"modelo": 0,
-				"goles": 0
-			},
+			},			
 			{
 				"marca": "puma",
 				"modelo": 2,
@@ -209,38 +87,8 @@ var selecciones = [
 		"tenis":[
 			{
 				"marca": "nike",
-				"modelo": 0,
-				"goles": 0
-			},
-			{
-				"marca": "nike",
-				"modelo": 1,
-				"goles": 0
-			},
-			{
-				"marca": "nike",
-				"modelo": 2,
-				"goles": 0
-			},
-			{
-				"marca": "nike",
-				"modelo": 4,
+				"modelo": 3,
 				"goles": 1
-			},
-			{
-				"marca": "nike",
-				"modelo": 5,
-				"goles": 0
-			},
-			{
-				"marca": "nike",
-				"modelo": 7,
-				"goles": 0
-			},
-			{
-				"marca": "adidas",
-				"modelo": 1,
-				"goles": 0
 			}
 		]
 	},
