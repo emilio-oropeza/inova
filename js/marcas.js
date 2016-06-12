@@ -15,17 +15,17 @@ var marcas = {
 			},
 			{
 				"id":"nike2",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "http://www.innovasport.com/magista-opus-fg-n36",
 				"nombre": "Magista Opus"
 			},
 			{
 				"id":"nike3",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "http://www.innovasport.com/mercurial-vapor-x-fg-n99",
 				"nombre": "Mercurial Vapor X"
 			},
 			{
 				"id":"nike4",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "http://www.innovasport.com/mercurial-vapor-xi-fg-n100",
 				"nombre": "Mercurial Vapor XI"
 			},
 			{
@@ -40,7 +40,7 @@ var marcas = {
 			},
 			{
 				"id":"nike7",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "http://www.innovasport.com/hypervenom-phinish-fg-n13",
 				"nombre": "Hypervenom Phinish"
 			},			
 			{
@@ -66,7 +66,7 @@ var marcas = {
 			},
 			{
 				"id":"adidas1",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "http://www.innovasport.com/ace-16-3-in-n5",
 				"nombre": "Ace 16"
 			},
 			{
@@ -86,7 +86,7 @@ var marcas = {
 			},
 			{
 				"id":"adidas5",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "http://www.innovasport.com/x-15-3-tf-n61",
 				"nombre": "X 15"
 			},
 			{
@@ -112,7 +112,7 @@ var marcas = {
 			},
 			{
 				"id":"puma1",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "http://www.innovasport.com/evopower1-3-tricks-fg-n95",
 				"nombre": "evoPOWER 1.3"
 			}
 		]
