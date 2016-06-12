@@ -99,20 +99,32 @@ section{
 	    color: #000;
 	    text-align: center;
 	    margin: 15px 0px;
+	    height: 150px;
+	}
+	.tenis-equipos > .tenis-row > div {
+		position: relative;
+		height: 100%;
+	}
+	.tenis-equipos > .tenis-row > div > * {
+		position: absolute;
+		top: 0px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+	}
+	.tenis-equipos > .tenis-row > div > span {
+		display: block;
+		height: 1em;
+		font-size: 18px;
 	}
 	.tenis-equipos > .tenis-row > .modelo {
-	    font-weight: 700;
-	    font-size: 18px;
-	    padding-top: 30px;
+	    font-weight: 700;	    
 	}
-	.tenis-equipos > .tenis-row > .marca {
-	    font-size: 18px;
-	    padding-top: 30px;
-	}
-	.tenis-equipos > .tenis-row > .goles {
+	.tenis-equipos > .tenis-row > .goles > span{
 		font-weight: 700;
 	    font-size: 30px;
-	    padding-top: 20px;
+	    height: 43px;
 	}
 	.tenis-equipos > .tenis-row > .loquiero{
 		padding-top: 20px;	
@@ -122,6 +134,7 @@ section{
 		font-weight: 700;
 		font-size: 14px;
 		line-height: 35px;
+		height: 60px;
 	}
 	.tenis-equipos > .tenis-row > .loquiero > a > .loquiero-img {
 	    display: block;

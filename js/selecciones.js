@@ -17,11 +17,23 @@ var selecciones = [
 	},
 	{
 		"nombre": "Coracia",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "nike",
+				"modelo": 3,
+				"goles": 1
+			}
+		]
 	},
 	{
 		"nombre": "Eslovaquia",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "adidas",
+				"modelo": 6,
+				"goles": 1
+			}
+		]
 	},
 	{
 		"nombre": "España",
@@ -44,7 +56,18 @@ var selecciones = [
 	},
 	{
 		"nombre": "Gales",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "adidas",
+				"modelo": 0,
+				"goles": 1
+			},
+			{
+				"marca": "adidas",
+				"modelo": 5,
+				"goles": 1
+			}
+		]
 	},
 	{
 		"nombre": "Hungría",
@@ -52,7 +75,13 @@ var selecciones = [
 	},
 	{
 		"nombre": "Inglaterra",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "nike",
+				"modelo": 2,
+				"goles": 1
+			}
+		]
 	},
 	{
 		"nombre": "Irlanda del Norte",
@@ -68,7 +97,13 @@ var selecciones = [
 	},
 	{
 		"nombre": "Polonia",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "nike",
+				"modelo": 7,
+				"goles": 1
+			}
+		]
 	},
 	{
 		"nombre": "Portugal",
@@ -94,7 +129,13 @@ var selecciones = [
 	},
 	{
 		"nombre": "Rusia",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "adidas",
+				"modelo": 0,
+				"goles": 1
+			}
+		]
 	},
 	{
 		"nombre": "Suecia",
@@ -102,7 +143,13 @@ var selecciones = [
 	},
 	{
 		"nombre": "Suiza",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "adidas",
+				"modelo": 1,
+				"goles": 1
+			}
+		]
 	},
 	{
 		"nombre": "Turquía",

@@ -62,9 +62,9 @@
 							var modelo = marca.modelos[tenis.modelo];
 							var gnralRow = $('<div class="row tenis-row"></div>').appendTo($(this));
 							$('<div class="col-sm-3"><img class="img-responsive img-center" src="images/tenis/'+(tenis.marca+tenis.modelo)+'.png"></div>').appendTo($(gnralRow));
-							$('<div class="col-sm-3 modelo">'+modelo.nombre+'</div>').appendTo($(gnralRow));
-							$('<div class="col-sm-2 marca">'+marca.marca+'</div>').appendTo($(gnralRow));
-							$('<div class="col-sm-2 goles">'+tenis.goles+'</div>').appendTo($(gnralRow));
+							$('<div class="col-sm-3 modelo"><span>'+modelo.nombre+'</span></div>').appendTo($(gnralRow));
+							$('<div class="col-sm-2 marca"><span>'+marca.marca+'</span></div>').appendTo($(gnralRow));
+							$('<div class="col-sm-2 goles"><span>'+tenis.goles+'</span></div>').appendTo($(gnralRow));
 							var loquiero = '<div class="col-sm-2 loquiero">';
 							loquiero +=	'<a href="'+modelo.link+'" target="_blank">';
 							loquiero +=	'<span class="loquiero-img"><i class="fa fa-tag" aria-hidden="true"></i></span>';

@@ -47,7 +47,7 @@ var jugadores = [
 	{
 		"nombre": "Luka Modric",
 		"pais": "Croacia",
-		"goles": 0,
+		"goles": 1,
 		"tenis": {
 			"marca": "nike",
 			"modelo": 3
