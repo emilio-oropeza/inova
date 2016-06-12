@@ -133,9 +133,9 @@ section{
 	    margin: auto;
 	    background-color: #bec4c4;
 	    color: #fff;
-	    line-height: 32px;
 	    border-radius: 50%;
 	    font-size: 15px;
+	    padding-top: 9px;
 	}
 	.tenis-equipos > .tenis-row > .loquiero > a:hover,
 	.tenis-equipos > .tenis-row > .loquiero > a:focus{

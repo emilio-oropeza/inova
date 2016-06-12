@@ -61,7 +61,7 @@
 							var marca = marcas[tenis.marca];
 							var modelo = marca.modelos[tenis.modelo];
 							var gnralRow = $('<div class="row tenis-row"></div>').appendTo($(this));
-							$('<div class="col-sm-3"><img class="img-responsive img-center" src="images/tenis/'+(tenis.marca+tenis.modelo)+'.png"></div>').appendTo($(gnralRow));
+							$('<div class="col-sm-3"><img class="img-responsive img-center" src="'+urlIndepth+'images/tenis/'+(tenis.marca+tenis.modelo)+'.png"></div>').appendTo($(gnralRow));
 							$('<div class="col-sm-3 modelo"><span>'+modelo.nombre+'</span></div>').appendTo($(gnralRow));
 							$('<div class="col-sm-2 marca"><span>'+marca.marca+'</span></div>').appendTo($(gnralRow));
 							$('<div class="col-sm-2 goles"><span>'+tenis.goles+'</span></div>').appendTo($(gnralRow));
