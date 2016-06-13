@@ -76,10 +76,12 @@
 										selescs[id] = {
 											"marca": tenis.marca,
 											"modelo": tenis.modelo,
-											"goles": tenis.goles
+											"goles": tenis.goles,
+											"jugadores": tenis.jugadores
 										};
 									}else{
 										selescs[id].goles += tenis.goles;
+										selescs[id].jugadores.push(tenis.jugadores);
 									}						
 								}
 							}							
@@ -102,8 +104,8 @@
 					var tenisImagen = $('<div class="tenis-imagen"></div>').appendTo($(colum1));
 					var img = $('<img class="img-responsive img-center" src="">').appendTo($(tenisImagen));
 					$('<span>'+modelo.nombre+'</span>').appendTo($(tenisImagen));
-					$('<div class="col-sm-3 modelo"><span>'+modelo.nombre+'</span></div>').appendTo($(gnralRow));
-					var marca = $('<div class="col-sm-2 marca"><span></span></div>').appendTo($(gnralRow));
+					var jugadorDiv = $('<div class="col-sm-3 modelo"><span></span></div>').appendTo($(gnralRow));
+					$('<div class="col-sm-2 marca"><span>'+marca.marca+'</span></div>').appendTo($(gnralRow));
 					$('<div class="col-sm-2 goles"><span>'+tenis.goles+'</span></div>').appendTo($(gnralRow));
 					var loquiero = '<div class="col-sm-2 loquiero">';
 					loquiero +=	'<a href="'+modelo.link+'" target="_blank">';
@@ -115,7 +117,11 @@
 					    .load(function() {
 					      $(tenisImagen).height(this.height+30);
 				  	});
-					
+				    var text = "";
+					for (var i = 0; i < tenis.jugadores.length; i++) {
+						text += "<span>"+tenis.jugadores[i]+ "</span>";				 
+					}
+					$(jugadorDiv).html(text);
 				},
 				resize: function(){
 					if($(window).width() > 768){

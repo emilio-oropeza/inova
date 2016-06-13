@@ -118,6 +118,10 @@ section{
 	.tenis-equipos > .tenis-row > .modelo {
 	    font-weight: 700;	    
 	}
+	.tenis-equipos > .tenis-row > .modelo > span{
+	    position: relative;
+	    height: auto; 
+	}
 	.tenis-equipos > .tenis-row > .goles > span{
 		font-weight: 700;
 	    font-size: 30px;
