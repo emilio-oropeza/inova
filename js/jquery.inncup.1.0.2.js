@@ -20,7 +20,7 @@
 					$(window).resize(componentObj.methods.resize);
 					$(".equipo-selector").each(function(i, val){
 						$(this).click(function(){
-							componentObj.methods.showTeamsTenis(i, val, this);
+							componentObj.methods.showTeamsTenis(i, val);
 						});
 					});
 				},
@@ -54,42 +54,86 @@
 				},
 				displayTeams: function(){
 					$(".tenis-equipos").each(function(x, val){
-						var seleccion = selecciones[x];
-						$(this).data("pais", seleccion.nombre);
-						for (var i = 0; i < seleccion.tenis.length; i++) {
-							var tenis = seleccion.tenis[i];
-							var marca = marcas[tenis.marca];
-							var modelo = marca.modelos[tenis.modelo];
-							var gnralRow = $('<div class="row tenis-row"></div>').appendTo($(this));
-							$('<div class="col-sm-3"><img class="img-responsive img-center" src="'+urlIndepth+'images/tenis/'+(tenis.marca+tenis.modelo)+'.png"></div>').appendTo($(gnralRow));
-							$('<div class="col-sm-3 modelo"><span>'+modelo.nombre+'</span></div>').appendTo($(gnralRow));
-							$('<div class="col-sm-2 marca"><span>'+marca.marca+'</span></div>').appendTo($(gnralRow));
-							$('<div class="col-sm-2 goles"><span>'+tenis.goles+'</span></div>').appendTo($(gnralRow));
-							var loquiero = '<div class="col-sm-2 loquiero">';
-							loquiero +=	'<a href="'+modelo.link+'" target="_blank">';
-							loquiero +=	'<span class="loquiero-img"><i class="fa fa-tag" aria-hidden="true"></i></span>';
-							loquiero +=	'<span class="loquiero-txt">LO QUIERO</span></a></div>';
-							$(loquiero).appendTo($(gnralRow));
-						}						
+						var seleccion;
+						if(x < selecciones.length){
+							seleccion = selecciones[x];
+							$(this).data("pais", seleccion.nombre);
+							for (var i = 0; i < seleccion.tenis.length; i++) {
+								var tenis = seleccion.tenis[i];
+								var marca = marcas[tenis.marca];
+								var modelo = marca.modelos[tenis.modelo];
+								componentObj.methods.renderRow(this, tenis, marca, modelo);								
+							}
+						}else{
+							var selescs = {};
+							var seleccion = [];
+							for (var i = 0; i < selecciones.length; i++) {
+								var s = selecciones[i];
+								for (var j = 0; j < s.tenis.length; j++) {
+									var tenis = s.tenis[j];
+									var id = tenis.marca + tenis.modelo;
+									if(!(id in selescs)){
+										selescs[id] = {
+											"marca": tenis.marca,
+											"modelo": tenis.modelo,
+											"goles": tenis.goles
+										};
+									}else{
+										selescs[id].goles += tenis.goles;
+									}						
+								}
+							}							
+							for (var key in selescs) {
+								seleccion.push(selescs[key]);
+							}
+							seleccion.sort(componentObj.methods.sortByGol);
+							for (var i = 0; i < seleccion.length; i++) {
+								var tenis = seleccion[i];
+								var marca = marcas[tenis.marca];
+								var modelo = marca.modelos[tenis.modelo];
+								componentObj.methods.renderRow(this, tenis, marca, modelo);	
+							}
+						}
 					});
+				},
+				renderRow: function(content, tenis, marca, modelo){
+					var gnralRow = $('<div class="row tenis-row"></div>').appendTo($(content));
+					var colum1 = $('<div class="col-sm-3"></div>').appendTo($(gnralRow));
+					var tenisImagen = $('<div class="tenis-imagen"></div>').appendTo($(colum1));
+					var img = $('<img class="img-responsive img-center" src="">').appendTo($(tenisImagen));
+					$('<span>'+modelo.nombre+'</span>').appendTo($(tenisImagen));
+					$('<div class="col-sm-3 modelo"><span>'+modelo.nombre+'</span></div>').appendTo($(gnralRow));
+					var marca = $('<div class="col-sm-2 marca"><span></span></div>').appendTo($(gnralRow));
+					$('<div class="col-sm-2 goles"><span>'+tenis.goles+'</span></div>').appendTo($(gnralRow));
+					var loquiero = '<div class="col-sm-2 loquiero">';
+					loquiero +=	'<a href="'+modelo.link+'" target="_blank">';
+					loquiero +=	'<span class="loquiero-img"><i class="fa fa-tag" aria-hidden="true"></i></span>';
+					loquiero +=	'<span class="loquiero-txt">LO QUIERO</span></a></div>';
+					$(loquiero).appendTo($(gnralRow));					
+					$(img)
+					  	.attr("src", urlIndepth+'images/tenis/'+(tenis.marca+tenis.modelo)+'.png') // Copy the src attr from the target <img>
+					    .load(function() {
+					      $(tenisImagen).height(this.height+30);
+				  	});
+					
 				},
 				resize: function(){
 					if($(window).width() > 768){
-						if(componentObj.active){
-							$("#table-header > .row").show();
-						}						
+						$("#table-header > .row").show();				
 					}else{
 						$("#table-header > .row").hide();
 					}
 				},
-				showTeamsTenis: function(i, val, el){
-					componentObj.active = true;
-					if($(window).width() > 768){
-						$("#table-header > .row").show();
+				showTeamsTenis: function(i, val){
+					var tenis;					
+					if($(val).hasClass("active")){
+						$(".equipo-selector").removeClass("active");
+						tenis = $("#gnral-tenis");
+					}else{
+						$(".equipo-selector").removeClass("active");
+						tenis = $(".tenis-equipos").get(i);
+						$(val).addClass("active");
 					}
-					$(".equipo-selector").removeClass("active");
-					$(el).addClass("active");
-					var tenis = $(".tenis-equipos").get(i);
 					$(".tenis-equipos").hide();
 					$(tenis).fadeIn("slow");
 				},

@@ -1,7 +1,7 @@
 var marcas = {
 	"nike":{
 		"marca": "Nike",
-		"goles": 5,
+		"goles": 10,
 		"modelos": [
 			{
 				"id":"nike0",
@@ -57,11 +57,11 @@ var marcas = {
 	},
 	"adidas":{
 		"marca": "Adidas",
-		"goles": 5,
+		"goles": 6,
 		"modelos": [
 			{
 				"id":"adidas0",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "http://www.innovasport.com/x-15-3-tf-n61",
 				"nombre": "X 16"
 			},
 			{
@@ -91,7 +91,7 @@ var marcas = {
 			},
 			{
 				"id":"adidas6",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "http://www.innovasport.com/x-15-3-tf-n61",
 				"nombre": "X 16 PureChaos"
 			}
 		]
@@ -111,7 +111,7 @@ var marcas = {
 				"nombre": "evoPOWER 1.2"
 			},
 			{
-				"id":"puma1",
+				"id":"puma2",
 				"link": "http://www.innovasport.com/evopower1-3-tricks-fg-n95",
 				"nombre": "evoPOWER 1.3"
 			}

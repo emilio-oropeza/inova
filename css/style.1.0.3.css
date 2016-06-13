@@ -88,10 +88,12 @@ section{
 	#table-header > .row{
 		color: #9c9e9f;
 		margin-bottom: 15px;
-		display: none;
 	}
 	.tenis-equipos{
 		display: none;
+	}
+	.tenis-equipos:last-child{
+		display: block;
 	}
 	.tenis-equipos > .tenis-row {
 	    background-color: #fff;
@@ -102,7 +104,12 @@ section{
 	}
 	.tenis-equipos > .tenis-row > div {
 		padding: 10px 0px;
-	}	
+	}
+	.tenis-equipos > .tenis-row > div > .tenis-imagen > span{
+		display: inline-block;
+		margin-top: 5px;
+		font-size: 18px;
+	}
 	.tenis-equipos > .tenis-row > div > span {
 		display: block;
 		height: 1em;
