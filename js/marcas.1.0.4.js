@@ -5,52 +5,52 @@ var marcas = {
 		"modelos": [
 			{
 				"id":"nike0",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "http://www.innovasport.com/iniciativa/tiempo?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolTiempo",
 				"nombre": "Tiempo Legend VI"
 			},
 			{
 				"id":"nike1",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "http://www.innovasport.com/iniciativa/magista?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolMagista",
 				"nombre": "Magista Obra"
 			},
 			{
 				"id":"nike2",
-				"link": "http://www.innovasport.com/magista-opus-fg-n36",
+				"link": "http://www.innovasport.com/iniciativa/magista?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolMagista",
 				"nombre": "Magista Opus"
 			},
 			{
 				"id":"nike3",
-				"link": "http://www.innovasport.com/mercurial-vapor-x-fg-n99",
+				"link": "http://www.innovasport.com/iniciativa/mercurial?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolMercurial",
 				"nombre": "Mercurial Vapor X"
 			},
 			{
 				"id":"nike4",
-				"link": "http://www.innovasport.com/mercurial-vapor-xi-fg-n100",
+				"link": "http://www.innovasport.com/iniciativa/mercurial?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolMercurial",
 				"nombre": "Mercurial Vapor XI"
 			},
 			{
 				"id":"nike5",
-				"link": "http://www.innovasport.com/mercurial-superfly-v-fg-n7",
+				"link": "http://www.innovasport.com/iniciativa/mercurial?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolMercurial",
 				"nombre": "Mercurial Superfly V"
 			},
 			{
 				"id":"nike6",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "http://www.innovasport.com/iniciativa/mercurial?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolMercurial",
 				"nombre": "Mercurial Superfly CR7 324K Gold"
 			},
 			{
 				"id":"nike7",
-				"link": "http://www.innovasport.com/hypervenom-phinish-fg-n13",
+				"link": "http://www.innovasport.com/iniciativa/hypervenom?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolHypervenom",
 				"nombre": "Hypervenom Phinish"
 			},			
 			{
 				"id":"nike8",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "http://www.innovasport.com/iniciativa/hypervenom?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolHypervenom",
 				"nombre": "Hyprevenom Phantom"
 			},
 			{
 				"id":"nike9",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "http://www.innovasport.com/iniciativa/hypervenom?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolHypervenom",
 				"nombre": "Hypervenom Phantom II"
 			}
 		]
@@ -61,22 +61,22 @@ var marcas = {
 		"modelos": [
 			{
 				"id":"adidas0",
-				"link": "http://www.innovasport.com/x-15-3-tf-n61",
+				"link": "http://www.innovasport.com/iniciativa/adidas-x?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolX",
 				"nombre": "X 16"
 			},
 			{
 				"id":"adidas1",
-				"link": "http://www.innovasport.com/ace-16-3-in-n5",
+				"link": "http://www.innovasport.com/iniciativa/adidas-ace-2?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolACE",
 				"nombre": "Ace 16"
 			},
 			{
 				"id":"adidas2",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "http://www.innovasport.com/iniciativa/adidas-ace-2?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolACE",
 				"nombre": "Ace 16 Primeknit"
 			},
 			{
 				"id":"adidas3",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "http://www.innovasport.com/iniciativa/adidas-ace-2?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolACE",
 				"nombre": "Ace 16 PureControl"
 			},			
 			{
@@ -86,12 +86,12 @@ var marcas = {
 			},
 			{
 				"id":"adidas5",
-				"link": "http://www.innovasport.com/x-15-3-tf-n61",
+				"link": "http://www.innovasport.com/iniciativa/adidas-x?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolX",
 				"nombre": "X 15"
 			},
 			{
 				"id":"adidas6",
-				"link": "http://www.innovasport.com/x-15-3-tf-n61",
+				"link": "http://www.innovasport.com/iniciativa/adidas-x?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolX",
 				"nombre": "X 16 PureChaos"
 			}
 		]
@@ -102,17 +102,17 @@ var marcas = {
 		"modelos": [
 			{
 				"id":"puma0",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "http://www.innovasport.com/iniciativa/puma-tricks?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolTricks",
 				"nombre": "evoSPEED SL II"
 			},
 			{
 				"id":"puma1",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "http://www.innovasport.com/iniciativa/puma-tricks?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolTricks",
 				"nombre": "evoPOWER 1.2"
 			},
 			{
 				"id":"puma2",
-				"link": "http://www.innovasport.com/evopower1-3-tricks-fg-n95",
+				"link": "http://www.innovasport.com/iniciativa/puma-tricks?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolTricks",
 				"nombre": "evoPOWER 1.3"
 			}
 		]
