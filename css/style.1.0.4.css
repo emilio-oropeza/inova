@@ -115,6 +115,11 @@ section{
 		height: 1em;
 		font-size: 18px;
 	}
+	.tenis-equipos > .tenis-row > div.numeracion > span{
+		font-size: 30px;
+		font-weight: 300;
+	}
+	
 	.tenis-equipos > .tenis-row > .modelo {
 	    font-weight: 700;	    
 	}

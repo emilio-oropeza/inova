@@ -62,7 +62,7 @@
 								var tenis = seleccion.tenis[i];
 								var marca = marcas[tenis.marca];
 								var modelo = marca.modelos[tenis.modelo];
-								componentObj.methods.renderRow(this, tenis, marca, modelo);								
+								componentObj.methods.renderRow(i, this, tenis, marca, modelo);								
 							}
 						}else{
 							var selescs = {};
@@ -93,27 +93,28 @@
 								var tenis = seleccion[i];
 								var marca = marcas[tenis.marca];
 								var modelo = marca.modelos[tenis.modelo];
-								componentObj.methods.renderRow(this, tenis, marca, modelo);	
+								componentObj.methods.renderRow(i, this, tenis, marca, modelo);	
 							}
 						}
 					});
 				},
-				renderRow: function(content, tenis, marca, modelo){
+				renderRow: function(place, content, tenis, marca, modelo){
 					var gnralRow = $('<div class="row tenis-row"></div>').appendTo($(content));
+					$('<div class="col-sm-1 numeracion"><span>'+(place+1)+'</span></div>').appendTo($(gnralRow));
 					var colum1 = $('<div class="col-sm-3"></div>').appendTo($(gnralRow));
 					var tenisImagen = $('<div class="tenis-imagen"></div>').appendTo($(colum1));
 					var img = $('<img class="img-responsive img-center" src="">').appendTo($(tenisImagen));
 					$('<span>'+modelo.nombre+'</span>').appendTo($(tenisImagen));
 					var jugadorDiv = $('<div class="col-sm-3 modelo"><span></span></div>').appendTo($(gnralRow));
 					$('<div class="col-sm-2 marca"><span>'+marca.marca+'</span></div>').appendTo($(gnralRow));
-					$('<div class="col-sm-2 goles"><span>'+tenis.goles+'</span></div>').appendTo($(gnralRow));
+					$('<div class="col-sm-1 goles"><span>'+tenis.goles+'</span></div>').appendTo($(gnralRow));
 					var loquiero = '<div class="col-sm-2 loquiero">';
 					loquiero +=	'<a href="'+modelo.link+'" target="_blank">';
 					loquiero +=	'<span class="loquiero-img"><i class="fa fa-tag" aria-hidden="true"></i></span>';
 					loquiero +=	'<span class="loquiero-txt">LO QUIERO</span></a></div>';
 					$(loquiero).appendTo($(gnralRow));					
 					$(img)
-					  	.attr("src", urlIndepth+'images/tenis/'+(tenis.marca+tenis.modelo)+'.png') // Copy the src attr from the target <img>
+					  	.attr("src", urlIndepth+'images/tenis2/'+(tenis.marca+tenis.modelo)+'.png') // Copy the src attr from the target <img>
 					    .load(function() {
 					      $(tenisImagen).height(this.height+30);
 				  	});
