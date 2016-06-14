@@ -97,7 +97,20 @@ var selecciones = [
 	},
 	{
 		"nombre": "Hungría",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "nike",
+				"modelo": 7,
+				"goles": 1,
+				"jugadores": ["Adam Szalai"]
+			},
+			{
+				"marca": "puma",
+				"modelo": 0,
+				"goles": 1,
+				"jugadores": ["Zlotan Stieber"]
+			}
+		]
 	},
 	{
 		"nombre": "Inglaterra",
@@ -116,7 +129,14 @@ var selecciones = [
 	},
 	{
 		"nombre": "Islandia",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "adidas",
+				"modelo": 1,
+				"goles": 1,
+				"jugadores": ["Bjarnason"]
+			}
+		]
 	},
 	{
 		"nombre": "Italia",
@@ -148,7 +168,14 @@ var selecciones = [
 	},
 	{
 		"nombre": "Portugal",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "adidas",
+				"modelo": 0,
+				"goles": 1,
+				"jugadores": ["Nani"]
+			}
+		]
 	},
 	{
 		"nombre": "República Checa",

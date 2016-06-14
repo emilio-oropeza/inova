@@ -42,7 +42,7 @@
 						$(this).find(".figura-nombre").html(componentObj.methods.strName(jugadores[i].nombre));
 						$(this).find(".figura-pais").text(jugadores[i].pais);
 
-						img = urlIndepth+"images/figuras/tenis/"+componentObj.methods.strImage(jugadores[i].nombre)+"_tenis.png";
+						img = urlIndepth+'images/tenis2/'+(jugadores[i].tenis.marca+jugadores[i].tenis.modelo)+'.png';
 						var modeloTxt = marcas[jugadores[i].tenis.marca].marca;
 						modeloTxt += " "+ marcas[jugadores[i].tenis.marca].modelos[jugadores[i].tenis.modelo].nombre;
 						var goles = (jugadores[i].goles < 10)?("0"+jugadores[i].goles):jugadores[i].goles;
@@ -160,6 +160,7 @@
 				specialChar: function(string){
 					string = string.replace("á", "a");
 					string = string.replace("é", "e");
+					string = string.replace("è", "e");
 					string = string.replace("í", "i");
 					string = string.replace("ó", "o");
 					string = string.replace("ú", "u");
