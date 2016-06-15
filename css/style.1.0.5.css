@@ -121,11 +121,36 @@ section{
 	}
 	
 	.tenis-equipos > .tenis-row > .modelo {
-	    font-weight: 700;	    
+	    font-weight: 700;
+	    min-height: 100px;
 	}
-	.tenis-equipos > .tenis-row > .modelo > span{
+	.tenis-equipos > .tenis-row > .modelo > div{
+		position: absolute;
+		top: 0px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+		overflow: hidden;
+	}
+	.tenis-equipos > .tenis-row > .modelo > div.players1{
+		height: 25px;
+	}
+	.tenis-equipos > .tenis-row > .modelo > div.players2{
+		height: 50px;
+	}
+	.tenis-equipos > .tenis-row > .modelo > div.players3{
+		height: 75px;
+	}
+	.tenis-equipos > .tenis-row > .modelo > div > span{
 	    position: relative;
-	    height: auto; 
+	    height: auto;
+	    display: block;
+		height: 25px;
+		font-size: 18px;
+	}
+	.tenis-equipos > .tenis-row > .modelo > div > .mas-btn {
+	    cursor: pointer;
 	}
 	.tenis-equipos > .tenis-row > .goles > span{
 		font-weight: 700;
@@ -168,6 +193,7 @@ section{
 	.figura-nombre {
 	    font-weight: 700;
 	    font-size: 14px;
+	    height: 40px;
 	}
 	.figura-pais {
 	    text-transform: uppercase;
@@ -175,7 +201,7 @@ section{
 	    font-size: 12px;
 	}
 	.figura-tenis-foto {
-	    max-height: 35px;
+	    max-height: 120px;
 	    margin: 15px auto;
 	}
 	.figura-tenis-modelo {

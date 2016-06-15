@@ -16,7 +16,7 @@ var selecciones = [
 				"marca": "adidas",
 				"modelo": 5,
 				"goles": 1,
-				"jugadores": ["Bastian Schweinsteiger"]
+				"jugadores": ["Schweinsteiger"]
 			}
 		]
 	},
@@ -47,6 +47,12 @@ var selecciones = [
 				"modelo": 5,
 				"goles": 1,
 				"jugadores": ["Ondrej Duda"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 5,
+				"goles": 2,
+				"jugadores": ["Marek Hamsík","Denis Glushakov"]
 			}
 		]
 	},
@@ -67,7 +73,7 @@ var selecciones = [
 			{
 				"marca": "nike",
 				"modelo": 5,
-				"goles": 1,
+				"goles": 2,
 				"jugadores": ["Dimitri Payet"]
 			},			
 			{
@@ -75,6 +81,13 @@ var selecciones = [
 				"modelo": 2,
 				"goles": 1,
 				"jugadores": ["Oliver Giroud"]
+			}
+			,			
+			{
+				"marca": "puma",
+				"modelo": 0,
+				"goles": 1,
+				"jugadores": ["Antonie Griezmann"]
 			}
 		]
 	},
@@ -197,8 +210,8 @@ var selecciones = [
 		"tenis":[
 			{
 				"marca": "nike",
-				"modelo": 4,
-				"goles": 1,
+				"modelo": 3,
+				"goles": 2,
 				"jugadores": ["Bogdan Stancu"]
 			}
 		]
@@ -211,6 +224,12 @@ var selecciones = [
 				"modelo": 4,
 				"goles": 1,
 				"jugadores": ["Vasili Berezutskiy"]
+			},
+			{
+				"marca": "adidas",
+				"modelo": 1,
+				"goles": 1,
+				"jugadores": ["Denis Glushakov"]
 			}
 		]
 	},
@@ -226,6 +245,12 @@ var selecciones = [
 				"modelo": 1,
 				"goles": 1,
 				"jugadores": ["Fabian Schär"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 1,
+				"goles": 1,
+				"jugadores": ["Admír Nehmedi"]
 			}
 		]
 	},

@@ -35,7 +35,7 @@
 					});
 				},
 				displayFigures: function(){
-					jugadores.sort(componentObj.methods.sortByGol);
+					//jugadores.sort(componentObj.methods.sortByGol);
 					$(".figuras").each(function(i, val){
 						var img = urlIndepth+"images/figuras/"+componentObj.methods.strImage(jugadores[i].nombre)+".png";
 						$(this).find(".figura-foto").attr("src", img);
@@ -58,6 +58,7 @@
 						if(x < selecciones.length){
 							seleccion = selecciones[x];
 							$(this).data("pais", seleccion.nombre);
+							seleccion.tenis.sort(componentObj.methods.sortByGol);
 							for (var i = 0; i < seleccion.tenis.length; i++) {
 								var tenis = seleccion.tenis[i];
 								var marca = marcas[tenis.marca];
@@ -119,16 +120,41 @@
 					      $(tenisImagen).height(this.height+30);
 				  	});
 				    var text = "";
+				    var x = 0;
+				    var total = 1;
 					for (var i = 0; i < tenis.jugadores.length; i++) {
-						text += "<span>"+tenis.jugadores[i]+ "</span>";				 
+						if( i == 2 && tenis.jugadores.length > 3){
+							text += '<span class="mas-btn">...</span>';
+						}
+						text += "<span>"+tenis.jugadores[i]+ "</span>";	
 					}
-					$(jugadorDiv).html(text);
+					var x = (tenis.jugadores.length >= 3)?3:tenis.jugadores.length;
+					var players = $('<div class="players'+x+'" data-total="'+tenis.jugadores.length+'">'+text+'</div>').appendTo($(jugadorDiv));
+					
+					var masBtn = $(players).find(".mas-btn");
+					$(masBtn).on("click", function(){
+						var total = $(this).parent().data("total");
+						var height = total * 25;
+						componentObj.methods.resizeTenis(this, gnralRow, height);
+						$(window).resize(function() {
+							componentObj.methods.resizeTenis(this, gnralRow, height);
+						});
+					});
 				},
 				resize: function(){
 					if($(window).width() > 768){
 						$("#table-header > .row").show();				
 					}else{
 						$("#table-header > .row").hide();
+					}
+				},
+				resizeTenis: function(mas, gnralRow, height){					
+					$(mas).parent().height(height);
+					$(mas).hide();
+					if($(window).width() > 768){
+						$(gnralRow).height((height+50));
+					}else{
+						$(gnralRow).css({"height":"auto"});
 					}
 				},
 				showTeamsTenis: function(i, val){
