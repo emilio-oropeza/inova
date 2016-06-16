@@ -97,7 +97,7 @@ var selecciones = [
 			{
 				"marca": "adidas",
 				"modelo": 0,
-				"goles": 1,
+				"goles": 2,
 				"jugadores": ["Gareth Bale"]
 			},
 			{
@@ -133,12 +133,25 @@ var selecciones = [
 				"modelo": 2,
 				"goles": 1,
 				"jugadores": ["Eric Dier"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 9,
+				"goles": 2,
+				"jugadores": ["Jaimie Vardy", "Daniel Sturridge"]
 			}
 		]
 	},
 	{
 		"nombre": "Irlanda del Norte",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "adidas",
+				"modelo": 1,
+				"goles": 2,
+				"jugadores": ["Gareth Mcauley", "Niall Mcginn"]
+			}
+		]
 	},
 	{
 		"nombre": "Islandia",
