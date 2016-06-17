@@ -34,8 +34,14 @@ var selecciones = [
 			{
 				"marca": "nike",
 				"modelo": 4,
+				"goles": 2,
+				"jugadores": ["Luka Modrić", "Milen Skoda"]
+			},
+			{
+				"marca": "adidas",
+				"modelo": 0,
 				"goles": 1,
-				"jugadores": ["Luka Modrić"]
+				"jugadores": ["Tomas Necid"]
 			}
 		]
 	},
@@ -176,8 +182,8 @@ var selecciones = [
 			{
 				"marca": "nike",
 				"modelo": 5,
-				"goles": 1,
-				"jugadores": ["Graziano Pellè"]
+				"goles": 2,
+				"jugadores": ["Graziano Pellè", "Edér"]
 			}
 		]
 	},
@@ -205,7 +211,20 @@ var selecciones = [
 	},
 	{
 		"nombre": "República Checa",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "nike",
+				"modelo": 4,
+				"goles": 1,
+				"jugadores": ["Ivan Perisic"]
+			},
+			{
+				"marca": "adidas",
+				"modelo": 3,
+				"goles": 1,
+				"jugadores": ["Ivan Rakitic"]
+			}
+		]
 	},
 	{
 		"nombre": "República de Irlanda",
