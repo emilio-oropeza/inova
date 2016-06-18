@@ -26,7 +26,20 @@ var selecciones = [
 	},
 	{
 		"nombre": "Bélgica",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "nike",
+				"modelo": 7,
+				"goles": 2,
+				"jugadores": ["Romelu Lukaku"]
+			},
+			{
+				"marca": "adidas",
+				"modelo": 0,
+				"goles": 1,
+				"jugadores": ["Axel Witsel"]
+			}
+		]
 	},
 	{
 		"nombre": "Coracia",
@@ -70,6 +83,18 @@ var selecciones = [
 				"modelo": 0,
 				"goles": 1,
 				"jugadores": ["Gerard Piqué"]
+			},
+			{
+				"marca": "adidas",
+				"modelo": 0,
+				"goles": 2,
+				"jugadores": ["Alvaro Morata"]
+			},
+			{
+				"marca": "puma",
+				"modelo": 2,
+				"goles": 1,
+				"jugadores": ["Nolito"]
 			}
 		]
 	},
@@ -167,6 +192,12 @@ var selecciones = [
 				"modelo": 1,
 				"goles": 1,
 				"jugadores": ["Bjarnason"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 1,
+				"goles": 1,
+				"jugadores": ["Gylfi Sigurasson"]
 			}
 		]
 	},

@@ -2,10 +2,46 @@ var jugadores = [
 	{
 		"nombre": "Gareth Bale",
 		"pais": "Gales",
-		"goles": 1,
+		"goles": 2,
 		"tenis": {
 			"marca": "adidas",
 			"modelo": 0
+		}
+	},
+	{
+		"nombre": "Alvaro Morata",
+		"pais": "España",
+		"goles": 2,
+		"tenis": {
+			"marca": "adidas",
+			"modelo": 0
+		}
+	},
+	{
+		"nombre": "Dimitri Payet",
+		"pais": "Francia",
+		"goles": 2,
+		"tenis": {
+			"marca": "nike",
+			"modelo": 5
+		}
+	},
+	{
+		"nombre": "Romelu Lukaku",
+		"pais": "Bélgica",
+		"goles": 2,
+		"tenis": {
+			"marca": "nike",
+			"modelo": 7
+		}
+	},
+	{
+		"nombre": "Bogdan Stancu",
+		"pais": "Rumania",
+		"goles": 2,
+		"tenis": {
+			"marca": "nike",
+			"modelo": 3
 		}
 	},
 	{
@@ -34,16 +70,7 @@ var jugadores = [
 			"marca": "puma",
 			"modelo": 2
 		}
-	},
-	{
-		"nombre": "Dimitri Payet",
-		"pais": "Francia",
-		"goles": 1,
-		"tenis": {
-			"marca": "nike",
-			"modelo": 5
-		}
-	},
+	},	
 	{
 		"nombre": "Nani",
 		"pais": "Portugal",
@@ -71,6 +98,32 @@ var jugadores = [
 			"modelo": 2
 		}
 	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 	{
 		"nombre": "Graziano Pellè",
 		"pais": "Italia",
@@ -134,15 +187,7 @@ var jugadores = [
 			"modelo": 0
 		}
 	},
-	{
-		"nombre": "Bogdan Stancu",
-		"pais": "Rumania",
-		"goles": 1,
-		"tenis": {
-			"marca": "nike",
-			"modelo": 3
-		}
-	},
+	
 	{
 		"nombre": "Vasili Berezutskiy",
 		"pais": "Rusia",
@@ -186,80 +231,6 @@ var jugadores = [
 		"tenis": {
 			"marca": "adidas",
 			"modelo": 1
-		}
-	},
-	{
-		"nombre": "Paul Pogba",
-		"pais": "Francia",
-		"goles": 0,
-		"tenis": {
-			"marca": "adidas",
-			"modelo": 3
-		}
-	},
-	{
-		"nombre": "Cristiano Ronaldo",
-		"pais": "Portugal",
-		"goles": 0,
-		"tenis": {
-			"marca": "nike",
-			"modelo": 5
-		}
-	},
-	
-	{
-		"nombre": "Zlatan Ibrahimovic",
-		"pais": "Suecia",
-		"goles": 0,
-		"tenis": {
-			"marca": "nike",
-			"modelo": 4
-		}
-	},
-	{
-		"nombre": "Thomas Müller",
-		"pais": "Alemania",
-		"goles": 0,
-		"tenis": {
-			"marca": "adidas",
-			"modelo": 0
-		}
-	},
-	
-	{
-		"nombre": "Antonie Griezmann",
-		"pais": "Francia",
-		"goles": 0,
-		"tenis": {
-			"marca": "puma",
-			"modelo": 0
-		}
-	},
-	{
-		"nombre": "Robert Lewandowski",
-		"pais": "Polonia",
-		"goles": 0,
-		"tenis": {
-			"marca": "nike",
-			"modelo": 8
-		}
-	},
-	{
-		"nombre": "Sergio Ramos",
-		"pais": "España",
-		"goles": 0,
-		"tenis": {
-			"marca": "nike",
-			"modelo": 0
-		}
-	},
-	{
-		"nombre": "Wayne Rooney",
-		"pais": "Inglaterra",
-		"goles": 0,
-		"tenis": {
-			"marca": "nike",
-			"modelo": 7
 		}
 	}
 ];

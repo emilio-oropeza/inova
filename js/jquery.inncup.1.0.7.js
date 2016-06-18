@@ -35,6 +35,7 @@
 					});
 				},
 				displayFigures: function(){
+					//jugadores.sort(componentObj.methods.sortByName);
 					//jugadores.sort(componentObj.methods.sortByGol);
 					$(".figuras").each(function(i, val){
 						var img = urlIndepth+"images/figuras/"+componentObj.methods.strImage(jugadores[i].nombre)+".png";
@@ -182,6 +183,17 @@
 				},
 				sortByGol: function(playerA, playerB){
 					return playerB.goles - playerA.goles;
+				},
+				sortByName: function(playerA, playerB){
+					var A = playerA.nombre.toLowerCase();
+					var B = playerB.nombre.toLowerCase();
+					if (A < B){
+						return -1;
+					}else if (A > B){
+						return  1;
+					}else{
+						return 0;
+					}
 				},
 				specialChar: function(string){
 					string = string.replace("á", "a");

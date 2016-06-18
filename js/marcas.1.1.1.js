@@ -1,7 +1,7 @@
 var marcas = {
 	"nike":{
 		"marca": "Nike",
-		"goles": 10,
+		"goles": 24,
 		"modelos": [
 			{
 				"id":"nike0",
@@ -57,7 +57,7 @@ var marcas = {
 	},
 	"adidas":{
 		"marca": "Adidas",
-		"goles": 6,
+		"goles": 17,
 		"modelos": [
 			{
 				"id":"adidas0",
@@ -81,7 +81,7 @@ var marcas = {
 			},			
 			{
 				"id":"adidas4",
-				"link": "http://www.innovasport.com/iniciativa/euro-16?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolJerseys",
+				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
 				"nombre": "11 pro"
 			},
 			{
@@ -98,7 +98,7 @@ var marcas = {
 	},
 	"puma":{
 		"marca": "Puma",
-		"goles": 1,
+		"goles": 4,
 		"modelos": [
 			{
 				"id":"puma0",
@@ -123,12 +123,12 @@ var marcas = {
 		"modelos": [
 			{
 				"id":"newb0",
-				"link": "http://www.innovasport.com/iniciativa/euro-16?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolJerseys",
+				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
 				"nombre": "Visaro"
 			},
 			{
 				"id":"newb1",
-				"link": "http://www.innovasport.com/iniciativa/euro-16?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolJerseys",
+				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
 				"nombre": "Visaro Leather"
 			}
 		]
@@ -139,7 +139,7 @@ var marcas = {
 		"modelos": [
 			{
 				"id":"under0",
-				"link": "http://www.innovasport.com/iniciativa/euro-16?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolJerseys",
+				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
 				"nombre": "ClutchFit Force 2.0"
 			}
 		]
@@ -150,12 +150,12 @@ var marcas = {
 		"modelos": [
 			{
 				"id":"umbro0",
-				"link": "http://www.innovasport.com/iniciativa/euro-16?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolJerseys",
+				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
 				"nombre": "Velocita"
 			},
 			{
 				"id":"umbro1",
-				"link": "http://www.innovasport.com/iniciativa/euro-16?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolJerseys",
+				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
 				"nombre": "Speciali Eternal"
 			}
 		]
@@ -166,17 +166,17 @@ var marcas = {
 		"modelos": [
 			{
 				"id":"mizuno0",
-				"link": "http://www.innovasport.com/iniciativa/euro-16?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolJerseys",
+				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
 				"nombre": "Morelia NEO"
 			},
 			{
 				"id":"mizuno1",
-				"link": "http://www.innovasport.com/iniciativa/euro-16?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolJerseys",
+				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
 				"nombre": "Morelia II"
 			},
 			{
 				"id":"mizuno2",
-				"link": "http://www.innovasport.com/iniciativa/euro-16?utm_source=Web&utm_medium=JuanFutbol&utm_campaign=JuanFutbolJerseys",
+				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
 				"nombre": "Wave Ignitus"
 			}
 		]
