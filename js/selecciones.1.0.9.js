@@ -16,7 +16,7 @@ var selecciones = [
 				"marca": "adidas",
 				"modelo": 5,
 				"goles": 1,
-				"jugadores": ["Bastian Schweinsteiger"]
+				"jugadores": ["Schweinsteiger"]
 			}
 		]
 	},
@@ -34,8 +34,14 @@ var selecciones = [
 			{
 				"marca": "nike",
 				"modelo": 4,
+				"goles": 2,
+				"jugadores": ["Luka Modrić", "Milen Skoda"]
+			},
+			{
+				"marca": "adidas",
+				"modelo": 0,
 				"goles": 1,
-				"jugadores": ["Luka Modrić"]
+				"jugadores": ["Tomas Necid"]
 			}
 		]
 	},
@@ -47,6 +53,12 @@ var selecciones = [
 				"modelo": 5,
 				"goles": 1,
 				"jugadores": ["Ondrej Duda"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 5,
+				"goles": 2,
+				"jugadores": ["Marek Hamsík","Denis Glushakov"]
 			}
 		]
 	},
@@ -67,7 +79,7 @@ var selecciones = [
 			{
 				"marca": "nike",
 				"modelo": 5,
-				"goles": 1,
+				"goles": 2,
 				"jugadores": ["Dimitri Payet"]
 			},			
 			{
@@ -75,6 +87,13 @@ var selecciones = [
 				"modelo": 2,
 				"goles": 1,
 				"jugadores": ["Oliver Giroud"]
+			}
+			,			
+			{
+				"marca": "puma",
+				"modelo": 0,
+				"goles": 1,
+				"jugadores": ["Antonie Griezmann"]
 			}
 		]
 	},
@@ -84,7 +103,7 @@ var selecciones = [
 			{
 				"marca": "adidas",
 				"modelo": 0,
-				"goles": 1,
+				"goles": 2,
 				"jugadores": ["Gareth Bale"]
 			},
 			{
@@ -97,7 +116,20 @@ var selecciones = [
 	},
 	{
 		"nombre": "Hungría",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "nike",
+				"modelo": 7,
+				"goles": 1,
+				"jugadores": ["Adam Szalai"]
+			},
+			{
+				"marca": "puma",
+				"modelo": 0,
+				"goles": 1,
+				"jugadores": ["Zlotan Stieber"]
+			}
+		]
 	},
 	{
 		"nombre": "Inglaterra",
@@ -107,16 +139,36 @@ var selecciones = [
 				"modelo": 2,
 				"goles": 1,
 				"jugadores": ["Eric Dier"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 9,
+				"goles": 2,
+				"jugadores": ["Jaimie Vardy", "Daniel Sturridge"]
 			}
 		]
 	},
 	{
 		"nombre": "Irlanda del Norte",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "adidas",
+				"modelo": 1,
+				"goles": 2,
+				"jugadores": ["Gareth Mcauley", "Niall Mcginn"]
+			}
+		]
 	},
 	{
 		"nombre": "Islandia",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "adidas",
+				"modelo": 1,
+				"goles": 1,
+				"jugadores": ["Bjarnason"]
+			}
+		]
 	},
 	{
 		"nombre": "Italia",
@@ -130,8 +182,8 @@ var selecciones = [
 			{
 				"marca": "nike",
 				"modelo": 5,
-				"goles": 1,
-				"jugadores": ["Graziano Pellè"]
+				"goles": 2,
+				"jugadores": ["Graziano Pellè", "Edér"]
 			}
 		]
 	},
@@ -148,11 +200,31 @@ var selecciones = [
 	},
 	{
 		"nombre": "Portugal",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "adidas",
+				"modelo": 0,
+				"goles": 1,
+				"jugadores": ["Nani"]
+			}
+		]
 	},
 	{
 		"nombre": "República Checa",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "nike",
+				"modelo": 4,
+				"goles": 1,
+				"jugadores": ["Ivan Perisic"]
+			},
+			{
+				"marca": "adidas",
+				"modelo": 3,
+				"goles": 1,
+				"jugadores": ["Ivan Rakitic"]
+			}
+		]
 	},
 	{
 		"nombre": "República de Irlanda",
@@ -170,8 +242,8 @@ var selecciones = [
 		"tenis":[
 			{
 				"marca": "nike",
-				"modelo": 4,
-				"goles": 1,
+				"modelo": 3,
+				"goles": 2,
 				"jugadores": ["Bogdan Stancu"]
 			}
 		]
@@ -184,6 +256,12 @@ var selecciones = [
 				"modelo": 4,
 				"goles": 1,
 				"jugadores": ["Vasili Berezutskiy"]
+			},
+			{
+				"marca": "adidas",
+				"modelo": 1,
+				"goles": 1,
+				"jugadores": ["Denis Glushakov"]
 			}
 		]
 	},
@@ -199,6 +277,12 @@ var selecciones = [
 				"modelo": 1,
 				"goles": 1,
 				"jugadores": ["Fabian Schär"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 1,
+				"goles": 1,
+				"jugadores": ["Admír Nehmedi"]
 			}
 		]
 	},
