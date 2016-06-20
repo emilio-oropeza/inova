@@ -135,7 +135,7 @@ var selecciones = [
 			{
 				"marca": "adidas",
 				"modelo": 0,
-				"goles": 2,
+				"goles": 3,
 				"jugadores": ["Gareth Bale"]
 			},
 			{
@@ -143,6 +143,18 @@ var selecciones = [
 				"modelo": 5,
 				"goles": 1,
 				"jugadores": ["Hal Robson-Kanu"]
+			},
+			{
+				"marca": "newb",
+				"modelo": 0,
+				"goles": 1,
+				"jugadores": ["Aaron Ramsey"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 2,
+				"goles": 1,
+				"jugadores": ["Neil Taylor"]
 			}
 		]
 	},

@@ -43,7 +43,7 @@
 						$(this).find(".figura-nombre").html(componentObj.methods.strName(jugadores[i].nombre));
 						$(this).find(".figura-pais").text(jugadores[i].pais);
 
-						img = urlIndepth+'images/tenis2/'+(jugadores[i].tenis.marca+jugadores[i].tenis.modelo)+'.png';
+						img = urlIndepth+'images/tenis3/'+(jugadores[i].tenis.marca+jugadores[i].tenis.modelo)+'.png';
 						var modeloTxt = marcas[jugadores[i].tenis.marca].marca;
 						modeloTxt += " "+ marcas[jugadores[i].tenis.marca].modelos[jugadores[i].tenis.modelo].nombre;
 						var goles = (jugadores[i].goles < 10)?("0"+jugadores[i].goles):jugadores[i].goles;
@@ -120,7 +120,7 @@
 					loquiero +=	'<span class="loquiero-txt">LO QUIERO</span></a></div>';
 					$(loquiero).appendTo($(gnralRow));					
 					$(img)
-					  	.attr("src", urlIndepth+'images/tenis2/'+(tenis.marca+tenis.modelo)+'.png') // Copy the src attr from the target <img>
+					  	.attr("src", urlIndepth+'images/tenis3/'+(tenis.marca+tenis.modelo)+'.png') // Copy the src attr from the target <img>
 					    .load(function() {
 					      $(tenisImagen).height(this.height+30);
 				  	});
