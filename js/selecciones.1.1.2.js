@@ -1,7 +1,14 @@
 var selecciones = [
 	{
 		"nombre": "Albania",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "nike",
+				"modelo": 5,
+				"goles": 1,
+				"jugadores": ["Armando Sadiku"]
+			}
+		]
 	},
 	{
 		"nombre": "Alemania",

@@ -1,7 +1,7 @@
 var marcas = {
 	"nike":{
 		"marca": "Nike",
-		"goles": 24,
+		"goles": 25,
 		"modelos": [
 			{
 				"id":"nike0",

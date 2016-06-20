@@ -83,7 +83,11 @@
 										};
 									}else{
 										selescs[id].goles += tenis.goles;
-										selescs[id].jugadores.push(tenis.jugadores);
+										//selescs[id].jugadores.push(tenis.jugadores);
+										for (var k = 0; k < tenis.jugadores.length; k++) {
+											var jug = tenis.jugadores[k];
+											selescs[id].jugadores.push(jug);
+										}
 									}						
 								}
 							}							
