@@ -1,7 +1,7 @@
 var marcas = {
 	"nike":{
 		"marca": "Nike",
-		"goles": 25,
+		"goles": 27,
 		"modelos": [
 			{
 				"id":"nike0",
@@ -57,7 +57,7 @@ var marcas = {
 	},
 	"adidas":{
 		"marca": "Adidas",
-		"goles": 17,
+		"goles": 18,
 		"modelos": [
 			{
 				"id":"adidas0",
@@ -119,16 +119,16 @@ var marcas = {
 	},
 	"newb":{
 		"marca": "New Balance",
-		"goles": 0,
+		"goles": 1,
 		"modelos": [
 			{
 				"id":"newb0",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "www.innovasport.com/catalogsearch/result/index/?q=new+balance&type=Calzado?utm_source=Web&utm_medium=JuanFutbol",
 				"nombre": "Visaro"
 			},
 			{
 				"id":"newb1",
-				"link": "http://www.innovasport.com/catalogsearch/result/?q=eurocopa",
+				"link": "www.innovasport.com/catalogsearch/result/index/?q=new+balance&type=Calzado?utm_source=Web&utm_medium=JuanFutbol",
 				"nombre": "Visaro Leather"
 			}
 		]

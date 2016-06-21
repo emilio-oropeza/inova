@@ -24,6 +24,12 @@ var selecciones = [
 				"modelo": 5,
 				"goles": 1,
 				"jugadores": ["Schweinsteiger"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 9,
+				"goles": 1,
+				"jugadores": ["Mario Gómez"]
 			}
 		]
 	},
