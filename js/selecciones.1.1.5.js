@@ -55,13 +55,13 @@ var selecciones = [
 		]
 	},
 	{
-		"nombre": "Coracia",
+		"nombre": "Croacia",
 		"tenis":[
 			{
 				"marca": "nike",
 				"modelo": 4,
-				"goles": 2,
-				"jugadores": ["Luka Modrić", "Milen Skoda"]
+				"goles": 3,
+				"jugadores": ["Luka Modrić", "Milen Skoda", "Kalinic"]
 			},
 			{
 				"marca": "adidas",
@@ -100,7 +100,7 @@ var selecciones = [
 			{
 				"marca": "adidas",
 				"modelo": 0,
-				"goles": 2,
+				"goles": 3,
 				"jugadores": ["Alvaro Morata"]
 			},
 			{
@@ -251,6 +251,12 @@ var selecciones = [
 				"modelo": 7,
 				"goles": 1,
 				"jugadores": ["Arkadiusz Milik"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 5,
+				"goles": 1,
+				"jugadores": ["Blaszczykowski"]
 			}
 		]
 	},
@@ -344,7 +350,20 @@ var selecciones = [
 	},
 	{
 		"nombre": "Turquía",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "nike",
+				"modelo": 4,
+				"goles": 1,
+				"jugadores": ["Burak Yilmaz"]
+			},
+			{
+				"marca": "adidas",
+				"modelo": 0,
+				"goles": 1,
+				"jugadores": ["Ozan Tufan"]
+			}
+		]
 	},
 	{
 		"nombre": "Ucrania",
