@@ -23,6 +23,9 @@
 							componentObj.methods.showTeamsTenis(i, val);
 						});
 					});
+					$("#vertodos").click(function(){
+						componentObj.methods.showTeamsTenis(-1, null);
+					});
 				},
 				displayBrands: function(){
 					//marcas.sort()
@@ -114,10 +117,10 @@
 					var jugadorDiv = $('<div class="col-sm-3 modelo"><span></span></div>').appendTo($(gnralRow));
 					$('<div class="col-sm-2 marca"><span>'+marca.marca+'</span></div>').appendTo($(gnralRow));
 					$('<div class="col-sm-1 goles"><span>'+tenis.goles+'</span></div>').appendTo($(gnralRow));
-					var loquiero = '<div class="col-sm-2 loquiero">';
+					var loquiero = '<div class="col-sm-2 loquiero"><div>';
 					loquiero +=	'<a href="'+modelo.link+'" target="_blank">';
 					loquiero +=	'<span class="loquiero-img"><i class="fa fa-tag" aria-hidden="true"></i></span>';
-					loquiero +=	'<span class="loquiero-txt">LO QUIERO</span></a></div>';
+					loquiero +=	'<span class="loquiero-txt">LO QUIERO</span></a></div></div>';
 					$(loquiero).appendTo($(gnralRow));					
 					$(img)
 					  	.attr("src", urlIndepth+'images/tenis3/'+(tenis.marca+tenis.modelo)+'.png') // Copy the src attr from the target <img>
@@ -164,11 +167,13 @@
 				},
 				showTeamsTenis: function(i, val){
 					var tenis;					
-					if($(val).hasClass("active")){
+					if(i < 0 || $(val).hasClass("active")){
 						$(".equipo-selector").removeClass("active");
+						$("#vertodos").addClass("active");
 						tenis = $("#gnral-tenis");
 					}else{
 						$(".equipo-selector").removeClass("active");
+						$("#vertodos").removeClass("active");
 						tenis = $(".tenis-equipos").get(i);
 						$(val).addClass("active");
 					}

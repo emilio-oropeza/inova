@@ -30,7 +30,7 @@ section{
 	color: #ffffff;
 }
 #portada{
-	background-image: url("../images/portada/portada.jpg");
+	background-image: url("../images/portada/portada2.jpg");
 	background-size: 763px auto;
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -88,6 +88,14 @@ section{
 	#table-header > .row{
 		color: #9c9e9f;
 		margin-bottom: 15px;
+	}
+	#table-header > .row > #vertodos{
+		cursor: pointer;
+	}
+	#table-header > .row > #vertodos:hover,
+	#table-header > .row > #vertodos:focus,
+	#table-header > .row > #vertodos.active{
+		color: #4dbac0;
 	}
 	.tenis-equipos{
 		display: none;
@@ -157,36 +165,39 @@ section{
 	    font-size: 30px;
 	    height: 43px;
 	}
-	.tenis-equipos > .tenis-row > .loquiero{
-		padding-top: 20px;	
+	.tenis-equipos > .tenis-row > .loquiero > div{
+		width: 120px;
+		height: 50px;
+		background-color: #4dbac0;
+		margin: auto;
+		line-height: 30px;
+		border-radius: 10px;
+		padding: 10px 0px;
+		font-size: 13px;
+		cursor: pointer;
 	}
-	.tenis-equipos > .tenis-row > .loquiero > a{
-	    color: #bec4c4;
-		font-weight: 700;
-		font-size: 14px;
-		line-height: 35px;
-		height: 60px;
+	.tenis-equipos > .tenis-row > .loquiero > div:hover,
+	.tenis-equipos > .tenis-row > .loquiero > div:focus{
+		background-color: #008cbe;
 	}
-	.tenis-equipos > .tenis-row > .loquiero > a > .loquiero-img {
-	    display: block;
-	    width: 32px;
-	    height: 32px;
-	    margin: auto;
-	    background-color: #bec4c4;
-	    color: #fff;
-	    border-radius: 50%;
-	    font-size: 15px;
-	    padding-top: 9px;
-	}
-	.tenis-equipos > .tenis-row > .loquiero > a:hover,
-	.tenis-equipos > .tenis-row > .loquiero > a:focus{
-		color: #28bac1;
+	.tenis-equipos > .tenis-row > .loquiero > div > a{
+		color: #ffffff;
 		text-decoration: none;
 	}
-	.tenis-equipos > .tenis-row > .loquiero > a:hover > .loquiero-img,
-	.tenis-equipos > .tenis-row > .loquiero > a:focus > .loquiero-img {
-		background-color: #28bac1;
+	.tenis-equipos > .tenis-row > .loquiero > div > a > .loquiero-img{
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		background-color: #ffffff;
+		color: #4dbac0;
+		border-radius: 50%;
+		margin-right: 5px;
+		font-size: 20px;
 	}
+	.tenis-equipos > .tenis-row > .loquiero > div:hover > a > .loquiero-img,
+	.tenis-equipos > .tenis-row > .loquiero > div:focus > a > .loquiero-img{
+		color: #008cbe;
+	}	
 #figuras-container{
 	background-color: #fde0d8;
 }
