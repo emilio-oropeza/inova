@@ -35,7 +35,14 @@ var selecciones = [
 	},
 	{
 		"nombre": "Austria",
-		"tenis":[]
+		"tenis":[
+			{
+				"marca": "nike",
+				"modelo": 0,
+				"goles": 1,
+				"jugadores": ["Alessandro Schöpf"]
+			}
+		]
 	},
 	{
 		"nombre": "Bélgica",
@@ -45,6 +52,12 @@ var selecciones = [
 				"modelo": 7,
 				"goles": 2,
 				"jugadores": ["Romelu Lukaku"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 4,
+				"goles": 1,
+				"jugadores": ["Radja Nainggolan"]
 			},
 			{
 				"marca": "adidas",
@@ -60,14 +73,14 @@ var selecciones = [
 			{
 				"marca": "nike",
 				"modelo": 4,
-				"goles": 3,
-				"jugadores": ["Luka Modrić", "Milen Skoda", "Kalinic"]
+				"goles": 4,
+				"jugadores": ["Luka Modrić", "Ivan Perisic", "Kalinic"]
 			},
 			{
 				"marca": "adidas",
-				"modelo": 0,
+				"modelo": 3,
 				"goles": 1,
-				"jugadores": ["Tomas Necid"]
+				"jugadores": ["Ivan Rakitic"]
 			}
 		]
 	},
@@ -84,7 +97,7 @@ var selecciones = [
 				"marca": "nike",
 				"modelo": 5,
 				"goles": 2,
-				"jugadores": ["Marek Hamsík","Denis Glushakov"]
+				"jugadores": ["Marek Hamsík","Vladimír Weiss"]
 			}
 		]
 	},
@@ -178,6 +191,18 @@ var selecciones = [
 				"modelo": 0,
 				"goles": 1,
 				"jugadores": ["Zlotan Stieber"]
+			},
+			{
+				"marca": "mizuno",
+				"modelo": 0,
+				"goles": 1,
+				"jugadores": ["Zoltán Gera"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 5,
+				"goles": 1,
+				"jugadores": ["Balázs Dzsudzsák"]
 			}
 		]
 	},
@@ -223,6 +248,18 @@ var selecciones = [
 				"modelo": 1,
 				"goles": 1,
 				"jugadores": ["Gylfi Sigurasson"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 4,
+				"goles": 1,
+				"jugadores": ["Jón Dadi Bödvarsson"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 5,
+				"goles": 1,
+				"jugadores": ["Arnór Traustason"]
 			}
 		]
 	},
@@ -255,7 +292,7 @@ var selecciones = [
 			{
 				"marca": "nike",
 				"modelo": 5,
-				"goles": 1,
+				"goles": 2,
 				"jugadores": ["Blaszczykowski"]
 			}
 		]
@@ -268,6 +305,18 @@ var selecciones = [
 				"modelo": 0,
 				"goles": 1,
 				"jugadores": ["Nani"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 5,
+				"goles": 2,
+				"jugadores": ["Cristiano Ronaldo"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 9,
+				"goles": 1,
+				"jugadores": ["Ricardo Quaresma"]
 			}
 		]
 	},
@@ -296,6 +345,12 @@ var selecciones = [
 				"modelo": 0,
 				"goles": 1,
 				"jugadores": ["Wes Hoolahan"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 4,
+				"goles": 1,
+				"jugadores": ["Robbie Brady"]
 			}
 		]
 	},
@@ -334,6 +389,12 @@ var selecciones = [
 	{
 		"nombre": "Suiza",
 		"tenis":[
+			{
+				"marca": "nike",
+				"modelo": 5,
+				"goles": 1,
+				"jugadores": ["Xherdan Shaquiri"]
+			},
 			{
 				"marca": "adidas",
 				"modelo": 1,

@@ -187,7 +187,6 @@
 				},
 				strName: function(string){
 					var output = string.replace(" ", "<br>");
-					output = componentObj.methods.specialChar(output);
 					return output;
 				},
 				sortByGol: function(playerA, playerB){
@@ -205,20 +204,20 @@
 					}
 				},
 				specialChar: function(string){
-					string = string.replace("á", "a");
-					string = string.replace("é", "e");
-					string = string.replace("è", "e");
-					string = string.replace("í", "i");
-					string = string.replace("ó", "o");
-					string = string.replace("ú", "u");
-					string = string.replace("ü", "u");
-					string = string.replace("Á", "A");
-					string = string.replace("É", "E");
-					string = string.replace("Í", "I");
-					string = string.replace("Ó", "O");
-					string = string.replace("Ú", "U");
-					string = string.replace("ñ", "n");
-					string = string.replace("Ñ", "N");
+					string = string.replace(new RegExp("á", 'g'), "a");
+					string = string.replace(new RegExp("é", 'g'), "e");
+					string = string.replace(new RegExp("è", 'g'), "e");
+					string = string.replace(new RegExp("í", 'g'), "i");
+					string = string.replace(new RegExp("ó", 'g'), "o");
+					string = string.replace(new RegExp("ú", 'g'), "u");
+					string = string.replace(new RegExp("ü", 'g'), "u");
+					string = string.replace(new RegExp("Á", 'g'), "A");
+					string = string.replace(new RegExp("É", 'g'), "E");
+					string = string.replace(new RegExp("Í", 'g'), "I");
+					string = string.replace(new RegExp("Ó", 'g'), "O");
+					string = string.replace(new RegExp("Ú", 'g'), "U");
+					string = string.replace(new RegExp("ñ", 'g'), "n");
+					string = string.replace(new RegExp("Ñ", 'g'), "N");
 					return string;
 				}
 			}
