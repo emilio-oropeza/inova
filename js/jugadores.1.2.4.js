@@ -18,6 +18,15 @@ var jugadores = [
 		}
 	},
 	{
+		"nombre": "Antonie Griezmann",
+		"pais": "Francia",
+		"goles": 3,
+		"tenis": {
+			"marca": "puma",
+			"modelo": 0
+		}
+	},
+	{
 		"nombre": "Cristiano Ronaldo",
 		"pais": "Portugal",
 		"goles": 2,
@@ -25,7 +34,7 @@ var jugadores = [
 			"marca": "nike",
 			"modelo": 5
 		}
-	},	
+	},
 	{
 		"nombre": "Romelu Lukaku",
 		"pais": "Bélgica",
@@ -34,16 +43,7 @@ var jugadores = [
 			"marca": "nike",
 			"modelo": 7
 		}
-	},
-	{
-		"nombre": "Iván Perisic",
-		"pais": "Croacia",
-		"goles": 2,
-		"tenis": {
-			"marca": "nike",
-			"modelo": 4
-		}
-	},
+	},	
 	{
 		"nombre": "Dimitri Payet",
 		"pais": "Francia",
@@ -53,15 +53,7 @@ var jugadores = [
 			"modelo": 5
 		}
 	},
-	{
-		"nombre": "Balázs Dzsudzsák",
-		"pais": "Hungria",
-		"goles": 2,
-		"tenis": {
-			"marca": "nike",
-			"modelo": 5
-		}
-	},
+	
 	{
 		"nombre": "Nani",
 		"pais": "Portugal",
@@ -70,7 +62,16 @@ var jugadores = [
 			"marca": "adidas",
 			"modelo": 0
 		}
-	},	
+	},
+	{
+		"nombre": "Mario Gómez",
+		"pais": "Alemania",
+		"goles": 2,
+		"tenis": {
+			"marca": "nike",
+			"modelo": 9
+		}
+	},
 	{
 		"nombre": "Bogdan Stancu",
 		"pais": "Rumania",
@@ -81,9 +82,9 @@ var jugadores = [
 		}
 	},
 	{
-		"nombre": "Luka Modric",
-		"pais": "Croacia",
-		"goles": 1,
+		"nombre": "Eden Hazard",
+		"pais": "Bélgica",
+		"goles": 2,
 		"tenis": {
 			"marca": "nike",
 			"modelo": 4

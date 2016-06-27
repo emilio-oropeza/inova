@@ -28,8 +28,20 @@ var selecciones = [
 			{
 				"marca": "nike",
 				"modelo": 9,
-				"goles": 1,
+				"goles": 2,
 				"jugadores": ["Mario Gómez"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 0,
+				"goles": 1,
+				"jugadores": ["Jerome Boateng"]
+			},
+			{
+				"marca": "adidas",
+				"modelo": 1,
+				"goles": 1,
+				"jugadores": ["Julian Draxler"]
 			}
 		]
 	},
@@ -37,7 +49,7 @@ var selecciones = [
 		"nombre": "Austria",
 		"tenis":[
 			{
-				"marca": "adidas",
+				"marca": "nike",
 				"modelo": 0,
 				"goles": 1,
 				"jugadores": ["Alessandro Schöpf"]
@@ -54,6 +66,12 @@ var selecciones = [
 				"jugadores": ["Romelu Lukaku"]
 			},
 			{
+				"marca": "nike",
+				"modelo": 4,
+				"goles": 3,
+				"jugadores": ["Radja Nainggolan", "Eden Hazard", "Ferreira Carrasco"]
+			},
+			{
 				"marca": "adidas",
 				"modelo": 0,
 				"goles": 1,
@@ -61,9 +79,15 @@ var selecciones = [
 			},
 			{
 				"marca": "nike",
-				"modelo": 4,
+				"modelo": 2,
+				"goles": 2,
+				"jugadores": ["Toby Alderweireld"]
+			},
+			{
+				"marca": "adidas",
+				"modelo": 5,
 				"goles": 1,
-				"jugadores": ["Radja Nainggolan"]
+				"jugadores": ["Michy Batshuayi"]
 			}
 		]
 	},
@@ -74,13 +98,13 @@ var selecciones = [
 				"marca": "nike",
 				"modelo": 4,
 				"goles": 4,
-				"jugadores": ["Luka Modrić", "Iván Perisic", "Kalinic"]
+				"jugadores": ["Luka Modrić", "Ivan Perisic", "Kalinic"]
 			},
 			{
 				"marca": "adidas",
 				"modelo": 3,
 				"goles": 1,
-				"jugadores": ["Iván Rakitic"]
+				"jugadores": ["Ivan Rakitic"]
 			}
 		]
 	},
@@ -97,7 +121,7 @@ var selecciones = [
 				"marca": "nike",
 				"modelo": 5,
 				"goles": 2,
-				"jugadores": ["Vladimír Weiss", "Marek Hamsík"]
+				"jugadores": ["Marek Hamsík","Vladimír Weiss"]
 			}
 		]
 	},
@@ -143,7 +167,7 @@ var selecciones = [
 			{
 				"marca": "puma",
 				"modelo": 0,
-				"goles": 1,
+				"goles": 3,
 				"jugadores": ["Antonie Griezmann"]
 			}
 		]
@@ -193,16 +217,16 @@ var selecciones = [
 				"jugadores": ["Zlotan Stieber"]
 			},
 			{
-				"marca": "nike",
-				"modelo": 5,
-				"goles": 1,
-				"jugadores": ["Balázs Dzsudzsák"]
-			},
-			{
 				"marca": "mizuno",
 				"modelo": 0,
 				"goles": 1,
 				"jugadores": ["Zoltán Gera"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 5,
+				"goles": 1,
+				"jugadores": ["Balázs Dzsudzsák"]
 			}
 		]
 	},
@@ -220,6 +244,12 @@ var selecciones = [
 				"modelo": 9,
 				"goles": 2,
 				"jugadores": ["Jaimie Vardy", "Daniel Sturridge"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 7,
+				"goles": 1,
+				"jugadores": ["Wayne Rooney"]
 			}
 		]
 	},
@@ -260,6 +290,18 @@ var selecciones = [
 				"modelo": 5,
 				"goles": 1,
 				"jugadores": ["Arnór Traustason"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 2,
+				"goles": 1,
+				"jugadores": ["Ragnar Sigurdsson"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 0,
+				"goles": 1,
+				"jugadores": ["Kolbeinn Sigthórsson"]
 			}
 		]
 	},
@@ -275,8 +317,14 @@ var selecciones = [
 			{
 				"marca": "nike",
 				"modelo": 5,
-				"goles": 2,
+				"goles": 3,
 				"jugadores": ["Graziano Pellè", "Edér"]
+			},
+			{
+				"marca": "puma",
+				"modelo": 2,
+				"goles": 1,
+				"jugadores": ["Giorgio Chiellini"]
 			}
 		]
 	},
@@ -292,7 +340,7 @@ var selecciones = [
 			{
 				"marca": "nike",
 				"modelo": 5,
-				"goles": 1,
+				"goles": 2,
 				"jugadores": ["Blaszczykowski"]
 			}
 		]
@@ -311,6 +359,12 @@ var selecciones = [
 				"modelo": 5,
 				"goles": 2,
 				"jugadores": ["Cristiano Ronaldo"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 9,
+				"goles": 1,
+				"jugadores": ["Ricardo Quaresma"]
 			}
 		]
 	},
@@ -321,13 +375,13 @@ var selecciones = [
 				"marca": "nike",
 				"modelo": 4,
 				"goles": 1,
-				"jugadores": ["Milen Skoda"]
+				"jugadores": ["Ivan Perisic"]
 			},
 			{
 				"marca": "adidas",
-				"modelo": 0,
+				"modelo": 3,
 				"goles": 1,
-				"jugadores": ["Milen Skoda"]
+				"jugadores": ["Ivan Rakitic"]
 			}
 		]
 	},
@@ -343,7 +397,7 @@ var selecciones = [
 			{
 				"marca": "nike",
 				"modelo": 4,
-				"goles": 1,
+				"goles": 2,
 				"jugadores": ["Robbie Brady"]
 			}
 		]
@@ -383,6 +437,12 @@ var selecciones = [
 	{
 		"nombre": "Suiza",
 		"tenis":[
+			{
+				"marca": "nike",
+				"modelo": 5,
+				"goles": 1,
+				"jugadores": ["Xherdan Shaquiri"]
+			},
 			{
 				"marca": "adidas",
 				"modelo": 1,
