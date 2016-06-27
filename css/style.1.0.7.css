@@ -193,6 +193,7 @@ section{
 		border-radius: 50%;
 		margin-right: 5px;
 		font-size: 20px;
+		padding-top: 5px;
 	}
 	.tenis-equipos > .tenis-row > .loquiero > div:hover > a > .loquiero-img,
 	.tenis-equipos > .tenis-row > .loquiero > div:focus > a > .loquiero-img{
