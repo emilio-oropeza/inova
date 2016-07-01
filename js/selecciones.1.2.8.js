@@ -68,7 +68,7 @@ var selecciones = [
 			{
 				"marca": "nike",
 				"modelo": 4,
-				"goles": 3,
+				"goles": 4,
 				"jugadores": ["Radja Nainggolan", "Eden Hazard", "Ferreira Carrasco"]
 			},
 			{
@@ -184,7 +184,7 @@ var selecciones = [
 			{
 				"marca": "adidas",
 				"modelo": 5,
-				"goles": 1,
+				"goles": 2,
 				"jugadores": ["Hal Robson-Kanu"]
 			},
 			{
@@ -196,8 +196,14 @@ var selecciones = [
 			{
 				"marca": "nike",
 				"modelo": 2,
+				"goles": 2,
+				"jugadores": ["Neil Taylor", "Ashley Williams"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 2,
 				"goles": 1,
-				"jugadores": ["Neil Taylor"]
+				"jugadores": ["Sam Vokes"]
 			}
 		]
 	},
@@ -342,6 +348,12 @@ var selecciones = [
 				"modelo": 5,
 				"goles": 2,
 				"jugadores": ["Blaszczykowski"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 5,
+				"goles": 1,
+				"jugadores": ["Robert Lewandowski"]
 			}
 		]
 	},
@@ -365,6 +377,12 @@ var selecciones = [
 				"modelo": 9,
 				"goles": 1,
 				"jugadores": ["Ricardo Quaresma"]
+			},
+			{
+				"marca": "adidas",
+				"modelo": 1,
+				"goles": 1,
+				"jugadores": ["Renato Sanches"]
 			}
 		]
 	},
@@ -375,13 +393,13 @@ var selecciones = [
 				"marca": "nike",
 				"modelo": 4,
 				"goles": 1,
-				"jugadores": ["Ivan Perisic"]
+				"jugadores": ["Milen Skoda"]
 			},
 			{
 				"marca": "adidas",
-				"modelo": 3,
+				"modelo": 0,
 				"goles": 1,
-				"jugadores": ["Ivan Rakitic"]
+				"jugadores": ["Tomas Necid"]
 			}
 		]
 	},
