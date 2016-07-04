@@ -1,11 +1,38 @@
 var jugadores = [
 	{
+		"nombre": "Antonie Griezmann",
+		"pais": "Francia",
+		"goles": 4,
+		"tenis": {
+			"marca": "puma",
+			"modelo": 0
+		}
+	},
+	{
 		"nombre": "Gareth Bale",
 		"pais": "Gales",
 		"goles": 3,
 		"tenis": {
 			"marca": "adidas",
 			"modelo": 0
+		}
+	},	
+	{
+		"nombre": "Dimitri Payet",
+		"pais": "Francia",
+		"goles": 2,
+		"tenis": {
+			"marca": "nike",
+			"modelo": 5
+		}
+	},
+	{
+		"nombre": "Oliver Giroud",
+		"pais": "Francia",
+		"goles": 3,
+		"tenis": {
+			"marca": "puma",
+			"modelo": 2
 		}
 	},
 	{
@@ -14,15 +41,6 @@ var jugadores = [
 		"goles": 3,
 		"tenis": {
 			"marca": "adidas",
-			"modelo": 0
-		}
-	},
-	{
-		"nombre": "Antonie Griezmann",
-		"pais": "Francia",
-		"goles": 3,
-		"tenis": {
-			"marca": "puma",
 			"modelo": 0
 		}
 	},
@@ -36,24 +54,14 @@ var jugadores = [
 		}
 	},
 	{
-		"nombre": "Romelu Lukaku",
-		"pais": "Bélgica",
+		"nombre": "Mario Gómez",
+		"pais": "Alemania",
 		"goles": 2,
 		"tenis": {
 			"marca": "nike",
-			"modelo": 7
+			"modelo": 9
 		}
 	},	
-	{
-		"nombre": "Dimitri Payet",
-		"pais": "Francia",
-		"goles": 2,
-		"tenis": {
-			"marca": "nike",
-			"modelo": 5
-		}
-	},
-	
 	{
 		"nombre": "Nani",
 		"pais": "Portugal",
@@ -64,12 +72,12 @@ var jugadores = [
 		}
 	},
 	{
-		"nombre": "Mario Gómez",
-		"pais": "Alemania",
+		"nombre": "Romelu Lukaku",
+		"pais": "Bélgica",
 		"goles": 2,
 		"tenis": {
 			"marca": "nike",
-			"modelo": 9
+			"modelo": 7
 		}
 	},
 	{
@@ -79,15 +87,6 @@ var jugadores = [
 		"tenis": {
 			"marca": "nike",
 			"modelo": 3
-		}
-	},
-	{
-		"nombre": "Eden Hazard",
-		"pais": "Bélgica",
-		"goles": 2,
-		"tenis": {
-			"marca": "nike",
-			"modelo": 4
 		}
 	}
 ];

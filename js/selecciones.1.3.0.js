@@ -42,6 +42,12 @@ var selecciones = [
 				"modelo": 1,
 				"goles": 1,
 				"jugadores": ["Julian Draxler"]
+			},
+			{
+				"marca": "adidas",
+				"modelo": 3,
+				"goles": 1,
+				"jugadores": ["Mesut Ozil"]
 			}
 		]
 	},
@@ -154,21 +160,26 @@ var selecciones = [
 			{
 				"marca": "nike",
 				"modelo": 5,
-				"goles": 2,
+				"goles": 3,
 				"jugadores": ["Dimitri Payet"]
 			},			
 			{
 				"marca": "puma",
 				"modelo": 2,
-				"goles": 1,
+				"goles": 3,
 				"jugadores": ["Oliver Giroud"]
-			}
-			,			
+			},			
 			{
 				"marca": "puma",
 				"modelo": 0,
-				"goles": 3,
+				"goles": 4,
 				"jugadores": ["Antonie Griezmann"]
+			},			
+			{
+				"marca": "adidas",
+				"modelo": 1,
+				"goles": 1,
+				"jugadores": ["Paul Pogba"]
 			}
 		]
 	},
@@ -331,6 +342,12 @@ var selecciones = [
 				"modelo": 2,
 				"goles": 1,
 				"jugadores": ["Giorgio Chiellini"]
+			},
+			{
+				"marca": "nike",
+				"modelo": 1,
+				"goles": 1,
+				"jugadores": ["Bonucci"]
 			}
 		]
 	},

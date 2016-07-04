@@ -1,7 +1,7 @@
 var marcas = {
 	"nike":{
 		"marca": "Nike",
-		"goles": 56,
+		"goles": 59,
 		"modelos": [
 			{
 				"id":"nike0",
@@ -57,7 +57,7 @@ var marcas = {
 	},
 	"adidas":{
 		"marca": "Adidas",
-		"goles": 26,
+		"goles": 29,
 		"modelos": [
 			{
 				"id":"adidas0",
@@ -98,7 +98,7 @@ var marcas = {
 	},
 	"puma":{
 		"marca": "Puma",
-		"goles": 7,
+		"goles": 10,
 		"modelos": [
 			{
 				"id":"puma0",
