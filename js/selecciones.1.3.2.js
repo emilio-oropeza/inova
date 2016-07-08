@@ -172,7 +172,7 @@ var selecciones = [
 			{
 				"marca": "puma",
 				"modelo": 0,
-				"goles": 4,
+				"goles": 6,
 				"jugadores": ["Antonie Griezmann"]
 			},			
 			{
@@ -380,13 +380,13 @@ var selecciones = [
 			{
 				"marca": "adidas",
 				"modelo": 0,
-				"goles": 1,
+				"goles": 2,
 				"jugadores": ["Nani"]
 			},
 			{
 				"marca": "nike",
 				"modelo": 5,
-				"goles": 2,
+				"goles": 3,
 				"jugadores": ["Cristiano Ronaldo"]
 			},
 			{

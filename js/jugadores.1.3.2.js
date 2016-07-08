@@ -2,10 +2,19 @@ var jugadores = [
 	{
 		"nombre": "Antonie Griezmann",
 		"pais": "Francia",
-		"goles": 4,
+		"goles": 6,
 		"tenis": {
 			"marca": "puma",
 			"modelo": 0
+		}
+	},
+	{
+		"nombre": "Cristiano Ronaldo",
+		"pais": "Portugal",
+		"goles": 3,
+		"tenis": {
+			"marca": "nike",
+			"modelo": 5
 		}
 	},
 	{
@@ -42,15 +51,6 @@ var jugadores = [
 		"tenis": {
 			"marca": "adidas",
 			"modelo": 0
-		}
-	},
-	{
-		"nombre": "Cristiano Ronaldo",
-		"pais": "Portugal",
-		"goles": 2,
-		"tenis": {
-			"marca": "nike",
-			"modelo": 5
 		}
 	},
 	{
